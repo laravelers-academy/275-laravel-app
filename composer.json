@@ -10,7 +10,8 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "laravelers-academy/laravel-package": "dev-main"
+        "laravelers-academy/laravel-package": "dev-master",
+        "laravelers-academy/zoom-meeting": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -67,6 +68,10 @@
         {
             "type": "path",
             "url": "../../packages/laravel-package"
+        },
+        {
+            "type": "path",
+            "url": "../../packages/zoom-meeting"
         }
     ]
 }
