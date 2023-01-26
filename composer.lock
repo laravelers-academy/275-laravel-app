@@ -1288,7 +1288,6 @@
                 "reference": "100dbdc428a2d2e84fe1114292c22662ceb6d4d3"
             },
             "require-dev": {
-                "orchestra/testbench": "3.4.x-dev",
                 "phpunit/phpunit": "10.0.x-dev"
             },
             "type": "library",
@@ -1332,7 +1331,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../packages/zoom-meeting",
-                "reference": "919e0b597319f712e53951a7db120bafbf87fa32"
+                "reference": "0ba1b405755bbedcdd92adfe58a6190ff7c6fa08"
             },
             "require-dev": {
                 "orchestra/testbench": "8.x-dev"

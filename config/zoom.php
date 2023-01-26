@@ -6,7 +6,7 @@ return [
 	 * Determina si el paquete puede usar los valores por defecto o necesariamente requerir los valores
 	 * de la definición manual con ser 
 	 **/
-	'use_default' => true,
+	'use_default_env' => false,
 
 	'account' => env('ZOOM_ACCOUNT', ''),
 
@@ -15,5 +15,7 @@ return [
 	'secret' => env('ZOOM_SECRET', ''),
 
 	'use_routes' => true,
+
+	'related_owner' => 'App\Models\User',
 
 ];
